@@ -1,0 +1,50 @@
+// Define the gradient for the side menu bar
+.side-menu-gradient {
+    background: linear-gradient(to bottom,  #31af67 0%,#26a87a 40%,#1ea28b 77%,#109aa4 100%);
+    height: 100%;
+}
+
+#app {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.h-100{
+    height: 100vh !important;
+}
+.page-overflow{
+    overflow: auto !important;
+}
+
+.dropdown-icon {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.dropdown-item-container {
+    display: flex;
+    align-items: center;
+}
+
+.item-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.item-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.item-name {
+    font-weight: bold;
+}
+
+.item-description {
+    font-size: 0.875rem;
+    color: #6c757d;
+}
