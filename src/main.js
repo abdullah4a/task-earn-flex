@@ -20,6 +20,7 @@ import NotFoundLayout from "@/layouts/NotFound.vue";
 import AppDropDown from "@/components/common/actions/AppDropDown.vue";
 import PageContent from "./components/common/content/PageContent.vue";
 import AppDataTable from "@/components/common/dataTable/AppDataTable.vue";
+import AppModal from "@/components/common/modal/AppModal.vue";
 
 app
   .component("auth-layout", AuthLayout)
@@ -27,6 +28,7 @@ app
   .component("not-found-layout", NotFoundLayout)
   .component("app-drop-down", AppDropDown)
   .component("app-page-content", PageContent)
+  .component("app-modal", AppModal)
   .component("app-data-table", AppDataTable);
 
 app.use(router).mount("#app");

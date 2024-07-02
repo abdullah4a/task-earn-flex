@@ -2,10 +2,10 @@
   <div>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-2 h-100" style="border: solid red">
+        <div class="col-2 h-100">
           <SideMenuBar :menus="menuItemsP" />
         </div>
-        <div class="col-10 h-100 page-overflow" style="border: solid red">
+        <div class="col-10 h-100 page-overflow">
           <router-view />
         </div>
       </div>
